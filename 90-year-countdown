@@ -1,0 +1,21 @@
+# 🚨 Don't change the code below 👇
+age = input("What is your current age?")
+# 🚨 Don't change the code above 👆
+#  objective: figure out the difference between 90 and 34 (Done)
+# how do I calculate the diff in terms of months weeks and days 
+# we gonna try to multiply (done)
+# Utilize the f sting correctly (done!)
+
+#Write your code below this line 👇
+#  so we gonna use number maniuplators and then f-strings 
+
+diff = 90 - int(age)
+# the above equation will give me the diff in age. 
+# days = 12 * 56
+days = diff * 365
+weeks = diff *52
+months = diff * 12
+
+# number check 
+#  so far so good. i used a smaller number (85) to ensure that the math was mathing correctly 
+print(f" You have {days} days, {weeks} weeks, and {months} months left.")

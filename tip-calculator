@@ -1,0 +1,23 @@
+#If the bill was $150.00, split between 5 people, with 12% tip. 
+
+#Each person should pay (150.00 / 5) * 1.12 = 33.6
+#Format the result to 2 decimal places = 33.60
+
+#Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
+
+#Write your code below this line 👇
+# Obj1: Divide the input/total between (x) amount of ppl
+  #1.5: What is the bill total and how many ppl are in the group? 
+# Obj2: ask which amount of tip they'd like to add: 10%, 12%, or 15% 
+  #2.5: use % operator to add tip after the sum if found 
+# Obj3: Round the result to 2 decimal places. 
+  #3.5: use the round() function to get it to 2 decimals 
+
+print("Welcome to tip calculator ju heard")
+bill = input("What's the total bill? $")
+tipPause = input("whats the percentage tip y'all trying to leave? 10%, 12%, 15%")
+group = input("how many ppl are in the group?")
+total = float(bill) * (int(tipPause) / 100 + 1.00)/ int(group)
+print("Each person should pay: " + str(round(total,2)))
+# here's the real challenge, i am trying to convert the tip input into a float so that the program can calculate the percentage to the total per person. 
+# tasks complete! The only thing i left out was the f-string. so a 98%

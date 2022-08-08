@@ -1,0 +1,18 @@
+# 🚨 Don't change the code below 👇
+number = int(input("Which number do you want to check? "))
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+if number % 2 == 0:
+  print("This is an even number.")
+  # for an odd(no pun intended) reason. i am not geting an even number no matter what i enter in the input. '''my code was if number %2'''
+  # read up on modulus operators via realpython.com a(https://realpython.com/python-modulo-operator/)
+  # used the console to try out some modulos and im getting even numbers (0) but when i run the program im getting the else statement 
+  # theres a line of code that im missing. its skipping the entire if statement 
+  # it works when i use the (>) operator 
+  # i switched out the number types. placed even on the else stament and the odd on the if statment. it seems to be working but why does it work when i put the odd in the if statement first??????? i wanna know the logic. 
+  # ok the part that i forgot in the equation was the (== 0) <--- signifies that it must equal 0 ELSE its an odd number. 
+  # switched back the even/odd words because the if statement says if the remainder is 0 then its an evennumber else its an odd number. i was thinking that the program would be able to determine if the number was even/odd but it is I( the programmer) who makes that determination thru my code. 
+else:
+  print("This is an odd number.")

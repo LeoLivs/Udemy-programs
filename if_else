@@ -1,0 +1,15 @@
+age = int(input("How old are you?))
+
+print(f"I am {age} years old")
+if age > 30:
+...     print("you're a old head")
+... elif age >= 25: 
+...     print("Invest Now")
+... elif age >= 23:
+...     print("Put the work in")
+... elif age >= 21: 
+...     print("2 drink Max")
+... elif age >= 18:
+...     print("Try new shit out")
+... else:
+...     print("youre a gerber, don't let them sleep on you")

@@ -1,0 +1,20 @@
+#Objective: Use If statemnets to determine if my equipment checklist is complete and that im fully prepared for my gig 
+
+equip = int(input("Welcome to equipment checklist:Do you have your laptop along with the stand? Please enter 1 for yes and 0 for no"))
+
+if equip == 1:
+  equip2 = int(input("Good:what about your wires"))
+  if equip2 == 1:
+      equip3 = int(input("What about your speakers with stands"))
+      if equip3 == 1:
+        equip4 = int(input("Do you have your Hard drives?"))
+        if equip4 == 1: 
+            print("You have everything")
+        else: 
+          print("start searching")
+      else: 
+        print("Start Searching")
+  else: 
+    print("start Searching")
+else: 
+  print("Start searching")

@@ -1,0 +1,46 @@
+# 🚨 Don't change the code below 👇
+print("Welcome to Python Pizza Deliveries!")
+size = input("What size pizza do you want? S, M, or L ")
+add_pepperoni = input("Do you want pepperoni? Y or N ")
+extra_cheese = input("Do you want extra cheese? Y or N ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+bill = 0
+# billsz = 0 
+if size == "S":
+  #bill is not adding because im not concatenating it. 
+  # NameError: name 'billsz' is not defined
+  # billsz = int(bill) + int(15)
+      bill += 15  
+elif size == "M":
+      bill += 20
+  
+elif size == "L":
+      bill += 25
+
+  #for some reason its adding 1 and idk where its comin from/ think it was due to #bad indentation
+      
+else:
+   print("try Again")    
+#Below indentation is critical to the python prereading the code. 
+if size == "S":
+    add_pepperoni == "Y"
+    bill += 2
+elif size == "M" or "L":
+  add_pepperoni == "Y"
+  bill += 3
+else:
+  print("No Pep")
+if size == "S" or "M" or "L":
+  extra_cheese == "Y"
+  bill += 1
+# the main issue on this code was indetation and typos (=+) instead of (+=) hence why i was getting +1 at the end.
+#  MUST be more careful when typing and looking over my code. also ust find a way to format my code. that'll lessen the indentation errors.
+#    maybe format in via Glitch til we get to pycharm 
+
+  # else: 
+    # 
+print(f"Your final bill is ${bill}")
+      
